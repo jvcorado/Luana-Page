@@ -26,10 +26,6 @@ main{
 }
 .text-sub{
     background-color:#2831D6;
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
 }
 .sobre{
     display: flex;

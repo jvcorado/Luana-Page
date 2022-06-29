@@ -80,7 +80,7 @@ main{
     width:30.625rem;
     height: 8.125rem;
     border-radius: 20px 0 0 20px;
-    border: 2px solid black;
+    border: 3px solid rgb(0, 0, 0);
     margin: 10px 0;   
 }
 
@@ -132,6 +132,13 @@ main{
     display: flex;
     justify-content: center;
     align-items:center;
+}
+.barra{
+    background-color: #FC97BE;
+    width: 3px;
+    height: 100px;
+    margin: auto;
+
 }
 
 .redes img{
@@ -197,6 +204,7 @@ main{
         margin-top: 1.25rem;
         justify-content: center;
         margin-bottom: 10px;
+        box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.52);
     }
     .sub-orcamento{
         width: 95%;
@@ -204,6 +212,12 @@ main{
         border-radius: 1.25rem;
         padding: 0.313rem;
     }
+    .barra{
+        margin-left: 4.7px;
+       margin-right:4.7px;
+    
+    }
+  
     .artes{
         display: none;
     }

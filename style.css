@@ -148,7 +148,7 @@ main{
     body{
         height: calc(100vh - 5rem);
         background-repeat: no-repeat;
-        background-size: 100vw 85vh;
+        background-size: 100vw 80vh;
         background-color: #2831D6;
     }
     .header{
@@ -196,6 +196,7 @@ main{
         border-radius: 1.25rem;
         margin-top: 1.25rem;
         justify-content: center;
+        margin-bottom: 10px;
     }
     .sub-orcamento{
         width: 95%;

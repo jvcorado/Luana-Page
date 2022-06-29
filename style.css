@@ -46,12 +46,11 @@ main{
     justify-content: center;
 }
 .perfil{
-    background-color: rgb(255, 255, 255);
     width: 12.5rem;
     margin-right: 30px;
     height: 12.5rem;
     border-radius: 50%;
-    box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.52);
+
 }
 .perfil img{
 
@@ -208,6 +207,9 @@ main{
         margin-bottom:  1.875rem;
         height: 9.375rem;
         width: 9.375rem;
+    }
+    .perfil img{
+        width: 170px;
     }
     .orcamento{
         height: 9.375rem;

@@ -33,7 +33,7 @@ main{
     justify-content: space-between;
     margin-top: 50px;
     height: 200px;
-    background-color: aqua;
+
 }
 .info{
     display: flex;
@@ -178,7 +178,7 @@ main{
     }
     .artes{
         flex-direction: column;
-        margin-top: 150px;
+        margin-top: 30px;
     }
     .left{
         margin-top: 30px;

@@ -6,6 +6,7 @@
 body{
     background-image: url(assets/img/fundoMain.jpeg);
     background-color: #2831D6;
+    height: calc(100vh - 100px);
 }
 
 header{
@@ -19,11 +20,7 @@ header{
     width: 800px;
     margin: auto;
 }
-main{
-    position: absolute;
-    background-size: 100%;
-    height: calc(100vh - 100px);
-}
+
 .text-sub{
     background-color:#2831D6;
 }
@@ -78,9 +75,7 @@ main{
     height: 130px;
     border-radius: 20px 0 0 20px;
     border: 2px solid black;
-    margin: 10px 0;
-
-    
+    margin: 10px 0;   
 }
 
 .lateral{
@@ -145,7 +140,8 @@ main{
     margin: 10px;
 }
 .img{
- 
+    width: 36px;
+    margin: 10px;
 
 }
 
@@ -174,7 +170,6 @@ main{
     .dados{
         width: 90%;
     }
-
     .info{
         flex-direction: column;
         align-items: center;

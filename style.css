@@ -44,7 +44,7 @@ main{
     justify-content: center;
 }
 .perfil{
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(255, 255, 255);
     width: 12.5rem;
     margin-right: 30px;
     height: 12.5rem;
@@ -148,8 +148,8 @@ main{
     body{
         height: calc(100vh - 5rem);
         background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #28d653;
+        background-size: 100vw 90vh;
+        background-color: #2831D6;
     }
     .header{
       height: 5rem;

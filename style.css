@@ -148,7 +148,7 @@ main{
     body{
         height: calc(100vh - 5rem);
         background-repeat: no-repeat;
-        background-size: 100vw 90vh;
+        background-size: 100vw 85vh;
         background-color: #2831D6;
     }
     .header{

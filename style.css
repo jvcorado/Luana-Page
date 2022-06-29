@@ -5,10 +5,10 @@
 }
 body{
     background-image: url(assets/img/fundoMain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #2831D6;
-    position: fixed;
     height: calc(100vh - 100px);
-    z-index: 99;
 }
 
 header{
@@ -41,7 +41,7 @@ header{
     justify-content: center;
 }
 .perfil{
-    background-color: rgb(255, 253, 252);
+    background-color: rgb(179, 72, 18);
     width: 12.5rem;
     margin-right: 30px;
     height: 12.5rem;

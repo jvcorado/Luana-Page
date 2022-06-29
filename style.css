@@ -6,8 +6,9 @@
 body{
     background-image: url(assets/img/fundoMain.jpeg);
     background-color: #2831D6;
+    position: fixed;
     height: calc(100vh - 100px);
-    top: 100%;
+    z-index: 99;
 }
 
 header{
@@ -35,15 +36,15 @@ header{
 }
 .info{
     display: flex;
-    margin-left: 200px;
+    margin-left: 12.5rem;
     align-items: center;
     justify-content: center;
 }
 .perfil{
-    background-color: rgb(255, 60, 0);
-    width: 200px;
+    background-color: rgb(255, 253, 252);
+    width: 12.5rem;
     margin-right: 30px;
-    height: 200px;
+    height: 12.5rem;
     border-radius: 50%;
     box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.52);
 }

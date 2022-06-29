@@ -54,18 +54,18 @@ header{
 
 .dados{
     background-color: antiquewhite;
-    width: 350px;
-    height: 170px;
-    border-radius: 20px;
+    width: 21.875rem;
+    height: 10.625rem;
+    border-radius: 1.25rem;
     box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
 
 }
 .orcamento{
     background-image: url(assets/img/fundoHeader.jpeg);
     background-color: #2831D6;
-    width: 500px;
-    height: 150px;
-    border-radius: 30px 0 0 30px;
+    width: 31.25rem;
+    height: 9.375rem;
+    border-radius: 1.875rem 0 0 1.875rem;
     box-shadow: -4px 4px 11px -1px rgba(0,0,0,0.52);
     display: flex;
     align-items: center;
@@ -73,29 +73,24 @@ header{
 }
 .sub-orcamento{
     background-color: #2831D6;
-    width: 490px;
-    height: 130px;
+    width:30.625rem;
+    height: 8.125rem;
     border-radius: 20px 0 0 20px;
     border: 2px solid black;
     margin: 10px 0;   
 }
 
-.lateral{
-    max-width: 300px;
-    height: 100px;
-    background-color: #2831D6;
-}
 .artes{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .left{
     background-color: #2831D6;
-    width: 15%;
-    height: 150px;
+    width: 15.625rem;
+    height: 9.375rem;
     border-radius: 0 20px  20px 0 ;
     box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
 
@@ -106,29 +101,27 @@ header{
     justify-content: space-evenly;
     background-color: antiquewhite;
     width: 60%;
-    height: 150px;
+    height: 9.375rem;
     border-radius: 30px;
     box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
 
 }
 .publicacao div{
-    width: 130px;
-    height: 130px;
-    margin: 10px;
-    border-radius: 20px;
+    width: 15.625rem;
+    height: 8.125rem;
+    margin: 0.625rem;
+    border-radius: 1.25rem;
     background-color: rgb(255, 255, 255);
 }
 .publicacao img{
-    object-fit: cover;
-    width: 100%;
-    display: block;
-    margin: auto;
+    width: 8.125rem;
+    height: 8.125rem;
 }
 .right{
     background-color: #2831D6;
-    width: 15%;
-    height: 150px;
-    border-radius: 20px 0  0 20px;
+    width: 15.625rem;
+    height: 9.375rem;
+    border-radius: 1.25rem 0  0 1.25rem;
     box-shadow: -4px 4px 11px -1px rgba(0,0,0,0.52);
 }
 .redes{
@@ -138,11 +131,11 @@ header{
 }
 
 .redes img{
-    width: 36px;
-    margin: 10px;
+    width: 2.25rem;
+    margin: 0.625rem;
 }
 .img{
-    width: 36px;
+    width: 0.625rem;
     margin: 10px;
 
 }
@@ -150,24 +143,24 @@ header{
 
 @media (max-width:500px) {
     .header{
-      height: 80px;
+      height: 5rem;
     }
     .logo{
         width:100%;
-        padding: 10px;
-        height: 400px;
+        padding: 0.625rem;
+        height: 25rem;
         object-fit: cover;
         display: block;
     }
     main{
-        height: calc(100vh- 80px);
+        height: calc(100vh- 5rem);
     }
     .sobre{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: auto;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
     .dados{
         width: 90%;
@@ -181,50 +174,28 @@ header{
     }
     .perfil{
         margin-right: 0;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        height: 150px;
-        width: 150px;
+        margin-top: 1.875rem;
+        margin-bottom:  1.875rem;
+        height: 9.375rem;
+        width: 9.375rem;
     }
     .orcamento{
-        height: 150px;
-        border-radius: 30px 0 0 30px;
+        height: 9.375rem;
+        border-radius: 1.875rem 0 0 1.875rem;
         width: 90%;
-        border-radius: 20px;
-        margin-top: 20px;
+        border-radius: 1.25rem;
+        margin-top: 1.25rem;
         justify-content: center;
-        
-       
     }
     .sub-orcamento{
         width: 95%;
         height: auto;
-        border-radius: 20px;
-        padding: 5px;
+        border-radius: 1.25rem;
+        padding: 0.313rem;
     }
     .artes{
         display: none;
-        flex-direction: column;
-        margin-top: 30px;
     }
-    .left{
-        margin-top: 30px;
-        width: 50%;
-        align-self: flex-start;
-    }
-    .publicacao{
-        margin: 20px;
-        width: 90%;
-        height: auto;
-    }
-    .right{
-        margin-top: 30px;
-        width: 50%;
-        align-self: flex-end;
-        margin-bottom: 30px;
-    }
-    .publicacao{
-        flex-direction: column;
-    }
+
 }
 

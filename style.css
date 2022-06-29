@@ -148,7 +148,7 @@ main{
     body{
         height: calc(100vh - 5rem);
         background-repeat: no-repeat;
-        background-size: ;
+        background-size: auto 80vh;
         background-color: #2831D6;
         padding-bottom: 30px;
     }

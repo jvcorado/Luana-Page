@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2831D6;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 6.25rem);
 }
 
 header{
@@ -21,6 +21,9 @@ header{
     display: block;
     width: 50rem;
     margin: auto;
+}
+main{
+
 }
 
 .text-sub{
@@ -41,7 +44,7 @@ header{
     justify-content: center;
 }
 .perfil{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 12, 12);
     width: 12.5rem;
     margin-right: 30px;
     height: 12.5rem;
@@ -142,6 +145,12 @@ header{
 
 
 @media (max-width:500px) {
+    body{
+        height: calc(100vh- 5rem);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #2831D6;
+    }
     .header{
       height: 5rem;
     }
@@ -153,7 +162,8 @@ header{
         display: block;
     }
     main{
-        height: calc(100vh- 5rem);
+       
+       
     }
     .sobre{
         flex-direction: column;

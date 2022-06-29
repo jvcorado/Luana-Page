@@ -150,6 +150,7 @@ main{
         background-repeat: no-repeat;
         background-size: 100vw 80vh;
         background-color: #2831D6;
+        padding-bottom: 20px;
     }
     .header{
       height: 5rem;
@@ -162,7 +163,6 @@ main{
         display: block;
     }
     main{
-       padding-bottom: 200px;
        
     }
     .sobre{

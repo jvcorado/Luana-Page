@@ -57,13 +57,25 @@ main{
 }
 
 .dados{
+    display: flex;
     background-color: antiquewhite;
-    width: 21.875rem;
+    width: 22.0rem;
     height: 10.625rem;
     border-radius: 1.25rem;
     box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
 
 }
+.reto:nth-child(1){
+    align-self: flex-start;
+    margin-right: 3px;
+}
+.reto{
+    align-self: flex-end;
+    width: 10px;
+    height: 50px;
+    background-color: #FC97BE;
+}
+
 .orcamento{
     background-image: url(assets/img/fundoHeader.jpeg);
     background-color: #2831D6;

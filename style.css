@@ -242,6 +242,9 @@ main{
     .artes{
         display: none;
     }
+    footer a{
+        color: white;
+    }
 
 }
 

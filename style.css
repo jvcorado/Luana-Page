@@ -35,7 +35,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 55px;
     height: 12.5rem;
 
 }
@@ -100,15 +100,16 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5rem;
-}
+    margin-top: 7rem;
+} 
 
 .left{
-    background-color: #2831D6;
-    width: 15.625rem;
+    background-image: url(assets/img/BARRA-LATERAL-ESQUERDA.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 11.25rem;
+    width: 11.25rem;
     height: 9.375rem;
-    border-radius: 0 20px  20px 0 ;
-    box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
 
 }
 .publicacao{
@@ -116,29 +117,31 @@ main{
     align-items: center;
     justify-content: space-evenly;
     background-color: antiquewhite;
-    width: 60%;
+    width: 70%;
     height: 9.375rem;
     border-radius: 30px;
     box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
 
 }
 .publicacao div{
-    width: 15.625rem;
-    height: 8.125rem;
+    width: 135px;
+    height:135px;
     margin: 0.625rem;
     border-radius: 1.25rem;
-    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 4px 11px -1px rgba(0,0,0,0.52);
+  
 }
 .publicacao img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    
 }
 .right{
-    background-color: #2831D6;
-    width: 15.625rem;
+    background-image: url(assets/img/LATERAL-DIREITA-BAIXO.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 11.25rem;
+    width: 11.25rem;
     height: 9.375rem;
-    border-radius: 1.25rem 0  0 1.25rem;
-    box-shadow: -4px 4px 11px -1px rgba(0,0,0,0.52);
 }
 .redes{
     display: flex;

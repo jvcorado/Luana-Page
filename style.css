@@ -242,8 +242,12 @@ main{
     .artes{
         display: none;
     }
-    footer a{
-        color: white;
+    footer{
+        padding: 0.9rem;
+    }
+    .acess{
+        
+        color: white !important;
     }
 
 }
